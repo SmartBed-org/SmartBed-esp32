@@ -33,7 +33,7 @@
 
 - [ ] Tom should provide HX711 AD weight module on sunday. Then I need to successfully read data from it.
 
-- First I need to meet with tom and to solder the module and the sensors.
+- First I need to meet with Tom to solder the module and the sensors.
 
 - [ ]  Perform measurements to identify patient trying to climb on the bed's barrier using the flexible pressure sensors. Check different variations to negate situations where patient only rolls on his side for example.
 
