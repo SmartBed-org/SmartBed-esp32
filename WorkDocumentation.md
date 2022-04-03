@@ -32,10 +32,12 @@
 **HW Tasks**
 
 - [ ] Tom should provide HX711 AD weight module on sunday. Then I need to successfully read data from it.
-First I need to meet with tom and to solder the module and the sensors.
+
+- First I need to meet with tom and to solder the module and the sensors.
 
 - [ ]  Perform measurements to identify patient trying to climb on the bed's barrier using the flexible pressure sensors. Check different variations to negate situations where patient only rolls on his side for example.
-I wasn't able to perform the measurements since the readings from the sensor are messed up. I have no idea why, since yesterday it worked perfectly and I didn't move any connections. Full problem description [here](https://docs.google.com/document/d/1LDruNqVpN6IS-AOigKtfhX7A0iwg1qz5cJxxVF7YbYY/edit#).
+
+- I wasn't able to perform the measurements since the readings from the sensor are messed up. I have no idea why, since yesterday it worked perfectly and I didn't move any connections. Full problem description [here](https://docs.google.com/document/d/1LDruNqVpN6IS-AOigKtfhX7A0iwg1qz5cJxxVF7YbYY/edit#).
 
 - [ ] Perform measurements to identify patient trying to climb on the bed's barrier using the weight sensors. Check different variations to negate situations where patient only rolls on his side for example.
 
