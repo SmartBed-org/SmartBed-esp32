@@ -31,7 +31,7 @@
 
 **HW Tasks**
 
-- [ ] Tom should provide HX711 AD weight module on sunday. Then I need to successfully read data from it.
+- [x] Tom should provide HX711 AD weight module on sunday. Then I need to successfully read data from it.
 
 - First I need to meet with Tom to solder the module and the sensors.
 
@@ -44,3 +44,16 @@
 **SW Tasks**
 
 - [ ]  Talk to Leon & Tomer and understand how _exactly_ they want the data to be stored in the firestore db, so it'll be convenient for them to read it from the application. Perhaps what I did is good?
+
+### **06/04 Update**
+
+- The problem with the flexible sensor was probably due to grounding one of the sensor's legs which enforces constant voltage in parallel to the sensor, so no resistance variations can be detected. under the new configuration which can be viewed below, the reading are good. Sensor activation video [link](https://photos.app.goo.gl/xSvtRRgVR1SxqvyEA)
+
+
+![Force Sensor Configuration](https://user-images.githubusercontent.com/48283282/162001090-fe11ebb2-2ed0-43ee-accc-664b3781e378.png)
+
+
+
+- We've encountered a problem wiring the 50kg weight sensors to the HX711 module. apperantly, the sensors arrived with wrong wire colors, so it was problematic to match the wires in the real sensor to the one's in the guide. we followed [this](https://circuitjournal.com/50kg-load-cells-with-HX711) guide to detect the right wires, to solder the sensors & module and to code the board.
+
+- After I finished wiring, the board stopped working. weird error message saying "A fatal error occurred: Timed out waiting for packet content". after presenting the problem to Tom it was decided that I will try different board that I have at home (DOIT esp32 DEVKIT V1) and it did work well, we think the board burnt for some reason. Sensor activation video [link](https://photos.app.goo.gl/5ZaizVf2jBCRCndx7)
