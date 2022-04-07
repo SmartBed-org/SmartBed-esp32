@@ -99,3 +99,4 @@ The reason I didn't see any variations in he voltage when I used the 10k resisto
 - steady state reading (with movement in bed) - 30-60 (40 on avg.)
 - when climbing attempted - 70-90 (80 on avg.)
 
+### Videos can be viewed [here](https://drive.google.com/drive/folders/1aCJvnqv-2BqEwhJzU9by0vvKYv22XTE9?usp=sharing)
