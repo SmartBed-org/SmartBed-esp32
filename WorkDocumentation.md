@@ -77,13 +77,20 @@ The reason I didn't see any variations in he voltage when I used the 10k resisto
 
 - climbing attempt detected @ 3.59 reading
 
+<h4 align="center"> Climbing Attempt Readings </h4>
 <p align="center">
 <img src=https://user-images.githubusercontent.com/48283282/162216793-6a48f4a2-61bb-4aeb-8c05-0ab6006715e9.png width="480" height="450">
 </p>
 
-
+<h4 align="center"> Random Movement Readings </h4>
 <p align="center">
 <img src=https://user-images.githubusercontent.com/48283282/162215090-cbfc3311-7a66-4fd1-8226-a359116a41f9.png width="360" height="450">
+</p>
+
+<h4 align="center"> Sitting in Bed Readings </h4>
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/162218312-1ab9b934-6274-4a77-8a7b-8f513603508d.png width="360" height="450">
 </p>
 
 
