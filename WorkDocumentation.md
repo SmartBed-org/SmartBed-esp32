@@ -49,11 +49,21 @@
 
 - The problem with the flexible sensor was probably due to grounding one of the sensor's legs which enforces constant voltage in parallel to the sensor, so no resistance variations can be detected. under the new configuration which can be viewed below, the reading are good. Sensor activation video [link](https://photos.app.goo.gl/xSvtRRgVR1SxqvyEA)
 
-
-![Force Sensor Configuration](https://user-images.githubusercontent.com/48283282/162001090-fe11ebb2-2ed0-43ee-accc-664b3781e378.png)
-
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/162001090-fe11ebb2-2ed0-43ee-accc-664b3781e378.png width="400" height="200">
 
 
 - We've encountered a problem wiring the 50kg weight sensors to the HX711 module. apperantly, the sensors arrived with wrong wire colors, so it was problematic to match the wires in the real sensor to the one's in the guide. we followed [this](https://circuitjournal.com/50kg-load-cells-with-HX711) guide to detect the right wires, to solder the sensors & module and to code the board.
 
-- After I finished wiring, the board stopped working. weird error message saying "A fatal error occurred: Timed out waiting for packet content". after presenting the problem to Tom it was decided that I will try different board that I have at home (DOIT esp32 DEVKIT V1) and it did work well, we think the board burnt for some reason. Sensor activation video [link](https://photos.app.goo.gl/5ZaizVf2jBCRCndx7)
+- After I finished wiring, the board stopped working. weird error message saying "A fatal error occurred: Timed out waiting for packet content". after presenting the problem to Tom it was decided that I will try different board that I have at home (DOIT esp32 DEVKIT V1) specs can be viewed [here](https://www.mischianti.org/2021/02/17/doit-esp32-dev-kit-v1-high-resolution-pinout-and-specs/) and it did work well, we think the board burnt for some reason. Sensor activation video [link](https://photos.app.goo.gl/5ZaizVf2jBCRCndx7)
+
+
+### **07/04**
+
+New insights about why the board burnt - the guide I followed for the flexible force sensor used different kind of sensor. To create the voltage divider with the sensor, 10 [Kohm] resistor was used. When I removed the resistor, the voltage drop across the sensor wad negligible, and most of the 5V input fell on the GPIO pin of the board, which made it burn.
+The reason I didn't see any variations in he voltage when I used the 10k resistor was probably since it's resistance was too small in comparison to the resistance of the sensor (after measurement the sensor's resistance is ). Now, I rebuilt the configuration using 330 [Kohm] resistors, and I feed the circuit with 3.3V - works well. The configuration is given below:
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/162128406-8c78f793-6710-47a2-b00c-d854513dbb6f.png width="300" height="300">
+
+
