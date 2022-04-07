@@ -51,7 +51,7 @@
 
 <p align="center">
 <img src=https://user-images.githubusercontent.com/48283282/162001090-fe11ebb2-2ed0-43ee-accc-664b3781e378.png width="400" height="200">
-
+</p>
 
 - We've encountered a problem wiring the 50kg weight sensors to the HX711 module. apperantly, the sensors arrived with wrong wire colors, so it was problematic to match the wires in the real sensor to the one's in the guide. we followed [this](https://circuitjournal.com/50kg-load-cells-with-HX711) guide to detect the right wires, to solder the sensors & module and to code the board.
 
@@ -65,5 +65,30 @@ The reason I didn't see any variations in he voltage when I used the 10k resisto
 
 <p align="center">
 <img src=https://user-images.githubusercontent.com/48283282/162128406-8c78f793-6710-47a2-b00c-d854513dbb6f.png width="300" height="300">
+</p>
 
+---
+<h3 align="center"> Experiments Update </h3>
+
+**Weight Sensor Results**
+
+- steady state reading (with movement in bed) - 3-4 (3.4-3.6 on avg.)
+- when climbing attempted - 1.9-3 (2.6-2.7 on avg.)
+
+- climbing attempt detected @ 3.59 reading
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/162216793-6a48f4a2-61bb-4aeb-8c05-0ab6006715e9.png width="480" height="450">
+</p>
+
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/162215090-cbfc3311-7a66-4fd1-8226-a359116a41f9.png width="360" height="450">
+</p>
+
+
+**Flexible Force Sensor Results**
+
+- steady state reading (with movement in bed) - 30-60 (40 on avg.)
+- when climbing attempted - 70-90 (80 on avg.)
 
