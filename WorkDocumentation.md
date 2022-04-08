@@ -70,6 +70,13 @@ The reason I didn't see any variations in he voltage when I used the 10k resisto
 ---
 <h3 align="center"> Experiments Update </h3>
 
+<h4 align="center"> Bed Structure </h4>
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/162354943-cfcd0977-efc2-4604-894d-c1a0f08d6637.jpg width="480" height="450">
+</p>
+
+
+
 **Weight Sensor Results**
 
 - steady state reading (with movement in bed) - 3-4 (3.4-3.6 on avg.)
@@ -93,10 +100,27 @@ The reason I didn't see any variations in he voltage when I used the 10k resisto
 <img src=https://user-images.githubusercontent.com/48283282/162218312-1ab9b934-6274-4a77-8a7b-8f513603508d.png width="360" height="450">
 </p>
 
+<h4 align="center"> Sensor Location </h4>
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/162355192-81a2795b-dd67-4017-a5b8-edcc6f5348c3.jpg width="360" height="450">
+</p>
+
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/162356498-7a004d63-676a-44f9-935e-7dfb78b541fd.png width="580" height="350">
+</p>
+
+
 
 **Flexible Force Sensor Results**
 
 - steady state reading (with movement in bed) - 30-60 (40 on avg.)
 - when climbing attempted - 70-90 (80 on avg.)
 
-### Videos can be viewed [here](https://drive.google.com/drive/folders/1aCJvnqv-2BqEwhJzU9by0vvKYv22XTE9?usp=sharing)
+<h4 align="center"> Sensor Location </h4>
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/162356893-542fb549-2ad9-472b-94bd-fb211d88d9a4.png width="360" height="450">
+</p>
+
+
+
+#### Videos of the experiments can be viewed [here](https://drive.google.com/drive/folders/1aCJvnqv-2BqEwhJzU9by0vvKYv22XTE9?usp=sharing)
