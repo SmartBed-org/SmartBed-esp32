@@ -35,11 +35,11 @@
 
 - First I need to meet with Tom to solder the module and the sensors.
 
-- [ ]  Perform measurements to identify patient trying to climb on the bed's barrier using the flexible pressure sensors. Check different variations to negate situations where patient only rolls on his side for example.
+- [x]  Perform measurements to identify patient trying to climb on the bed's barrier using the flexible pressure sensors. Check different variations to negate situations where patient only rolls on his side for example.
 
 - I wasn't able to perform the measurements since the readings from the sensor are messed up. I have no idea why, since yesterday it worked perfectly and I didn't move any connections. Full problem description [here](https://docs.google.com/document/d/1LDruNqVpN6IS-AOigKtfhX7A0iwg1qz5cJxxVF7YbYY/edit#).
 
-- [ ] Perform measurements to identify patient trying to climb on the bed's barrier using the weight sensors. Check different variations to negate situations where patient only rolls on his side for example.
+- [x] Perform measurements to identify patient trying to climb on the bed's barrier using the weight sensors. Check different variations to negate situations where patient only rolls on his side for example.
 
 **SW Tasks**
 
@@ -82,7 +82,7 @@ The reason I didn't see any variations in he voltage when I used the 10k resisto
 - steady state reading (with movement in bed) - 3-4 (3.4-3.6 on avg.)
 - when climbing attempted - 1.9-3 (2.6-2.7 on avg.)
 
-- climbing attempt detected @ 3.59 reading
+- climbing attempt detected when reading started to drop toward 3 and below
 
 <h4 align="center"> Climbing Attempt Readings </h4>
 <p align="center">
