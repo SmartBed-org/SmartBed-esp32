@@ -152,6 +152,6 @@ To fix the previously mentioned problem, I've elevated the pressure sensors to b
 the results were very encouraging, the climbing attempt was detected in very high persicion and the response was very quick, as can be viewed [here](https://drive.google.com/drive/folders/1lhLVnGww8cEn1cMLH3RZlG8mfhjyOJLZ?usp=sharing)
 
 #### *Next Tasks for 18/04:*
-[] Schedule a meeting with Tom and Yaron to get their approval regarding the results (after Passover)
-[] Finish LPWAN part for the seminar
-[] Plan the final video & final report
+- [ ]  Schedule a meeting with Tom and Yaron to get their approval regarding the results (after Passover)
+- [ ]  Finish LPWAN part for the seminar
+- [ ] Plan the final video & final report
