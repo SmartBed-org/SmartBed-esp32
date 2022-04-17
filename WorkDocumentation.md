@@ -125,6 +125,8 @@ The reason I didn't see any variations in he voltage when I used the 10k resisto
 
 #### Videos of the experiments can be viewed [here](https://drive.google.com/drive/folders/1aCJvnqv-2BqEwhJzU9by0vvKYv22XTE9?usp=sharing)
 
+## **10/04 - 23/04**
+
 ### **16/04**
 
 I've integrated both types of sensors (4 weight sensors and 2 flexible pressure sensors) into one full system. The model mimics the expected behaviour of the system, only instead of writing from the esp board to firebase when climbing attempt is detected, it switches on an LED.
