@@ -124,3 +124,34 @@ The reason I didn't see any variations in he voltage when I used the 10k resisto
 
 
 #### Videos of the experiments can be viewed [here](https://drive.google.com/drive/folders/1aCJvnqv-2BqEwhJzU9by0vvKYv22XTE9?usp=sharing)
+
+### **16/04**
+
+I've integrated both types of sensors (4 weight sensors and 2 flexible pressure sensors) into one full system. The model mimics the expected behaviour of the system, only instead of writing from the esp board to firebase when climbing attempt is detected, it switches on an LED.
+
+Additionaly, I've connected the weight sensors, using dedicated mounts, onto a wooden board to allow better detection. The configuration is as follows:
+
+
+<h4 align="center"> Weight Sensor Mounting to a Wooden Board </h4>
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/163719978-82ddf4de-07aa-402f-b733-d70b783f5da8.jpeg width="360" height="450">
+</p>
+
+
+After performing some experiments, I understood that the weights sensors and the wooden board create a gap between the matress and the metalic bed skeleton, and harms the pressure sensor readings.
+
+### **17/04**
+
+To fix the previously mentioned problem, I've elevated the pressure sensors to be at the same plane as the top of the wooden board, and used the following configuration of the sensors:
+
+<h4 align="center"> Full System Configuration </h4>
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/163720023-2634cef7-e502-42fa-8697-fef409b5372e.jpeg width="360" height="450">
+</p>
+
+the results were very encouraging, the climbing attempt was detected in very high persicion and the response was very quick, as can be viewed [here](https://drive.google.com/drive/folders/1lhLVnGww8cEn1cMLH3RZlG8mfhjyOJLZ?usp=sharing)
+
+#### *Next Tasks for 18/04:*
+[] Schedule a meeting with Tom and Yaron to get their approval regarding the results (after Passover)
+[] Finish LPWAN part for the seminar
+[] Plan the final video & final report
