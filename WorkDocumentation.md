@@ -154,6 +154,38 @@ To fix the previously mentioned problem, I've elevated the pressure sensors to b
 the results were very encouraging, the climbing attempt was detected in very high persicion and the response was very quick, as can be viewed [here](https://drive.google.com/drive/folders/1lhLVnGww8cEn1cMLH3RZlG8mfhjyOJLZ?usp=sharing)
 
 #### *Next Tasks for 19/04:*
-- [ ]  Schedule a meeting with Tom and Yaron to get their approval regarding the results (after Passover)
-- [ ]  Finish LPWAN part for the seminar
+- [x]  Schedule a meeting with Tom and Yaron to get their approval regarding the results (after Passover)
+- [x]  Finish LPWAN part for the seminar
 - [ ] Plan the final video & final report
+
+## **24/04 - 30/04**
+
+### **27/04**
+Meeting with Tom & Yaron. Positive feedback regarding results and seminar presentation.
+
+### Tasks:
+- [x] Need to switch wooden board for a bigger one so the system will be more robust.
+- [x] Finish code so it will write to Firestore
+
+
+### **28/04**
+
+When I connected the board ti Wifi, Flexible force sensors stopped woring. debugging proccess:
+- the weight sensors are working - the problem can't be with the PC or esp32 board
+- used voltmeter to check sensor resistance - resistance changes with pressure - sensors are working
+- tried to switch wires & resistors - still got nothing
+
+After long reaserch proccess the answer was in the knowledge bank - esp32 has 2 types of analog pins: ADC1 & ADC2. ADC2 pins are used by wifi thus are not available when activating wifi. Solution: switched to ADC1 pins
+
+### **30/04**
+
+Switched to bigger wooden board so the system will be more robust as depicted below:
+
+# TODO: INSERT PICTURE
+
++ Updated code so it will be independent of calibration factor (normalized the input data and used threshold when the calue drops below 65%). more details in the code    documentation. 
++ Cleaned & added documentation to the code.
++ More videos documenting the results can be found [here]() # TODO: INSERT LINK
+
+### **Tasks:**
+! Solder wires nicely to metallic breadboard instead the plastic one
