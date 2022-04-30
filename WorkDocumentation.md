@@ -185,7 +185,7 @@ Switched to bigger wooden board so the system will be more robust as depicted be
 
 + Updated code so it will be independent of calibration factor (normalized the input data and used threshold when the calue drops below 65%). more details in the code    documentation. 
 + Cleaned & added documentation to the code.
-+ More videos documenting the results can be found [here]() # TODO: INSERT LINK
++ More videos documenting the results can be found [here](https://drive.google.com/drive/folders/18-_WjRkURPTSdkoMlGn1igrQaprKSmDA?usp=sharing)
 
 ### **Tasks:**
 ! Solder wires nicely to metallic breadboard instead the plastic one
