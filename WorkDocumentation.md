@@ -181,11 +181,41 @@ After long reaserch proccess the answer was in the knowledge bank - esp32 has 2 
 
 Switched to bigger wooden board so the system will be more robust as depicted below:
 
-# TODO: INSERT PICTURE
+<h4 align="center"> Full System Configuration Using Wider Wooden Board </h4>
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/167111327-c05a3d67-5b40-4d23-885d-46e3f849d6e7.jpeg width="360" height="450">
+</p>
+
 
 + Updated code so it will be independent of calibration factor (normalized the input data and used threshold when the calue drops below 65%). more details in the code    documentation. 
 + Cleaned & added documentation to the code.
 + More videos documenting the results can be found [here](https://drive.google.com/drive/folders/18-_WjRkURPTSdkoMlGn1igrQaprKSmDA?usp=sharing)
 
 ### **Tasks:**
-! Solder wires nicely to metallic breadboard instead the plastic one
+- [x] Solder wires nicely to metallic breadboard instead the plastic one
+
+
+### **03/05**
+Soldered the wires to Proto-board and ran few more tests
+
+<h4 align="center"> Old Bread-Board Wiring </h4>
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/167112013-5a95101a-7692-4546-9f86-edf978e78266.jpeg width="360" height="450">
+</p>
+
+<h4 align="center"> New Proto-Board Wiring </h4>
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/167111933-4f0fe4e3-d493-49b0-89d9-f07feca317a6.jpeg width="360" height="450">
+</p>
+
+<h4 align="center"> Comparison between Bread-Board and Proto-Board Wiring </h4>
+<p align="center">
+<img src=https://user-images.githubusercontent.com/48283282/167111875-822ec3e5-4766-4c1e-a73d-e954153bd37c.jpeg width="360" height="450">
+</p>
+
+More videos of the results may be viewed [here](https://drive.google.com/drive/folders/13qpj0Ir222XzYvJPqSrDwS6SJCgHgy94?usp=sharing)
+
+## Tasks ##
+- [ ] Set up meeting with Tom to ensure HW part is done and continue working on the SW part
+
+
