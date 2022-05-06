@@ -200,17 +200,17 @@ Soldered the wires to Proto-board and ran few more tests
 
 <h4 align="center"> Old Bread-Board Wiring </h4>
 <p align="center">
-<img src=https://user-images.githubusercontent.com/48283282/167112013-5a95101a-7692-4546-9f86-edf978e78266.jpeg width="360" height="450">
+<img src=https://user-images.githubusercontent.com/48283282/167112013-5a95101a-7692-4546-9f86-edf978e78266.jpeg width="360" height="300">
 </p>
 
 <h4 align="center"> New Proto-Board Wiring </h4>
 <p align="center">
-<img src=https://user-images.githubusercontent.com/48283282/167111933-4f0fe4e3-d493-49b0-89d9-f07feca317a6.jpeg width="360" height="450">
+<img src=https://user-images.githubusercontent.com/48283282/167111933-4f0fe4e3-d493-49b0-89d9-f07feca317a6.jpeg width="360" height="250">
 </p>
 
 <h4 align="center"> Comparison between Bread-Board and Proto-Board Wiring </h4>
 <p align="center">
-<img src=https://user-images.githubusercontent.com/48283282/167111875-822ec3e5-4766-4c1e-a73d-e954153bd37c.jpeg width="360" height="450">
+<img src=https://user-images.githubusercontent.com/48283282/167111875-822ec3e5-4766-4c1e-a73d-e954153bd37c.jpeg width="360" height="250">
 </p>
 
 More videos of the results may be viewed [here](https://drive.google.com/drive/folders/13qpj0Ir222XzYvJPqSrDwS6SJCgHgy94?usp=sharing)
