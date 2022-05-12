@@ -216,6 +216,8 @@ Soldered the wires to Proto-board and ran few more tests
 More videos of the results may be viewed [here](https://drive.google.com/drive/folders/13qpj0Ir222XzYvJPqSrDwS6SJCgHgy94?usp=sharing)
 
 ## Tasks ##
-- [ ] Set up meeting with Tom to ensure HW part is done and continue working on the SW part
+- [x] Set up meeting with Tom to ensure HW part is done and continue working on the SW part
 
 
+### **10/05**
+After meeting with Tom - basically HW is done. We scheduled a meeting for Monday 16/05 to checkout some improvements for increasing pressure sensor range using sponges. Additionaly, Tom suggested that it is optional to find (5) volunteers that will test our system (5 repetitions - FALSE POSITIVE).
