@@ -232,3 +232,13 @@ After meeting again with Tom, we checked if extending sensors detection range is
 
 ## **31/05**
 Performed 1st experiment with a volunteer, results were good. All the results will be updated during the week and may be viewed [here](https://drive.google.com/drive/folders/1EvLZEdo0fVP3fRZgbWB85z9uWv-5C-ld?usp=sharing)
+
+## **01/06 - 12/06**
+* Performed experiments with 4 volunteers, produced graphs & video documentation.
+* Finished HW fixing and refinment
+  - All boards & controllers are sealed within boxes using restrains for strain relief
+  - Dedicated mounting devices were 3D printed to keep the wooden board from moving while performing experiments. The mounts were connected to the bed skeleton         using magnets
+
+## **Tasks Before Submission**
+- [ ] Video
+- [ ] Finish final report
