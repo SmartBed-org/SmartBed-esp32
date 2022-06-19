@@ -247,7 +247,7 @@ Performed 1st experiment with a volunteer, results were good. All the results wi
 Tom printed dedicated mounts to keep the wooden board from moving. The mounts:
 <h4 align="center"> Special 3D printed mounts to keep the wooden board from moving </h4>
 <p align="center">
-<img src=https://user-images.githubusercontent.com/48283282/174477371-d89c4e3e-d01f-4705-a21e-ec992920f82b.png width="360" height="250">
+<img src=https://user-images.githubusercontent.com/48283282/174477371-d89c4e3e-d01f-4705-a21e-ec992920f82b.png width="450" height="250">
 </p>!
 
 
