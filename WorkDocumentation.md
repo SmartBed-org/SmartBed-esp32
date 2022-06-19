@@ -226,9 +226,9 @@ After meeting with Tom - basically HW is done. We scheduled a meeting for Monday
 After meeting again with Tom, we checked if extending sensors detection range is neccessary (using rigid sponges). concluded there's no need for further treatment, good as it is.
 
 ## Tasks ##
-- [ ] Fix strain relief of wires on proto-board
-- [ ] Decide how to connect the permenantly fix the wooden board to the bed (using neodymium magnets?)
-- [ ] Perform aformentioned experiments
+- [x] Fix strain relief of wires on proto-board
+- [x] Decide how to connect the permenantly fix the wooden board to the bed (using neodymium magnets?)
+- [x] Perform aformentioned experiments
 
 ## **31/05**
 Performed 1st experiment with a volunteer, results were good. All the results will be updated during the week and may be viewed [here](https://drive.google.com/drive/folders/1EvLZEdo0fVP3fRZgbWB85z9uWv-5C-ld?usp=sharing)
@@ -242,3 +242,7 @@ Performed 1st experiment with a volunteer, results were good. All the results wi
 ## **Tasks Before Submission**
 - [ ] Video
 - [ ] Finish final report
+
+## **15/06**
+Tom printed dedicated mounts to keep the wooden board from moving. The mounts:
+  #PICTURE
