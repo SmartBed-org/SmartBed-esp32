@@ -258,7 +258,7 @@ void loop() {
    * which in turn will notify the medical stuff about the room & bed where the climbing
    * attempt was detected. */
   if(weight_sensor_normalized < 0.650) {
-    if(vout1 >= 70 || vout2 >= 70){
+    if(vout1 >= 50 || vout2 >= 50){
       
         digitalWrite(led_gpio, HIGH);   // turn the LED on (HIGH is the voltage level)
         
